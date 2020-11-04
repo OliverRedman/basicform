@@ -5,8 +5,8 @@ const errorElement = document.getElementById('error')
 const passError = document.getElementById('errorpass')
 
 form.addEventListener('submit', (e) => {
-  let messages = ['']
-  let messagesPass = ['']
+  let messages = []
+  let messagesPass = []
 
   if (name.value === '' || name.value == null) {
     messages.push('Name is required')
